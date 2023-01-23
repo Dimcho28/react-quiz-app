@@ -1,8 +1,11 @@
+import "./style.css";
 
 export default function Quiz (props) {
     return <>
-        <div>
-            <h2>{props.question}</h2>
+        <div className="quiz">
+            <div className="quiz-question">
+                <h2>{props.question}</h2>
+            </div>
             { props.children }
         </div>
     </>;

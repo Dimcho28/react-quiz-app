@@ -1,7 +1,31 @@
 .correct {
-    background-color: limegreen;
+    background-color: lime;
+
 }
 
 .incorrect {
-    background-color: brown;
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.quiz {
+    background-color: white;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 5px 10px 18px #888;
+    margin-bottom: 25px;
+}
+
+.quiz-question {
+    background-color: #262626;
+    color: #8e8e8e;
+    padding: 1px;
+}
+
+.question-btn {
+    margin: 0 20px;
+    border-radius: 20px;
 }
