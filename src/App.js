@@ -3,7 +3,7 @@ import Button from "./components/Quiz/Button";
 
 function App() {
   return <>
-    <h1>Quiz App</h1>
+    <h1 className="heder-h1">Quiz App</h1>
     <Quiz question="Колко бързо ...?">
       <Button isCorrect={false}>10 км/ч</Button>
       <Button isCorrect={true}>20 км/ч</Button>
